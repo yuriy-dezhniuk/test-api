@@ -15,3 +15,5 @@ jobs:
       - name: Run API tests
         run: |
           postman collection run "39889933-8f805344-593b-466a-8789-40f8b5c7740d"
+        with:
+          config: 'baseUrl=https://valentinos-coffee.herokuapp.com'
