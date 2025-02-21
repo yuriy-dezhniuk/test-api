@@ -18,4 +18,4 @@ jobs:
       - name: Run API tests with Base URL
         run: |
           postman collection run "39889933-8f805344-593b-466a-8789-40f8b5c7740d" \
-          --env-var "baseUrl=${{ secrets.BASE_URL }}"
+          --env-var "baseUrl=https://valentinos-coffee.herokuapp.com"
